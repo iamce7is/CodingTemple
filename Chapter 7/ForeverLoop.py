@@ -59,5 +59,6 @@ while polling_active:
            polling_active = False
    # Polling is complete. Show the results.
     print("\n--- Poll Results ---")
+    #name = key / response = value in responses[name] dictionary
     for name, response in responses.items():
        print(name + " would like to go visit " + response + ".")

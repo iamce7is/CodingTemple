@@ -186,7 +186,7 @@ def make_album(artist_name, album_title, tracks=''):
 
 while True:
     print("Give us the Artist info: \n")
-    print("(Enter q anytime to quit \n)")
+    print("(Enter q anytime to quit) \n")
 
     dict1a = input('What is the artist\'s name? ')
     dict1b = input('What is the album title? ')

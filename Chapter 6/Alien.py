@@ -89,7 +89,6 @@ for river, country in rivers.items():
 
 
 
-
 favorite_languages = {
        'jen': 'python',
        'sarah': 'c',

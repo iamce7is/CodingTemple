@@ -36,11 +36,34 @@ if message == 'quit':
      active = False
 else: print(message)
 
+
+#Break
 prompt = "\nPlease enter the name of a city you have visited:"
 prompt += "\n(Enter 'quit' when you are finished.) "
+
+#while True will run forever until it reaches a break statement
 while True:
     city = input(prompt)
     if city == 'quit':
            break
     else:
            print("I'd love to go to " + city.title() + "!")
+
+
+#Continue statement
+current_number = 0
+while current_number < 10: 
+    current_number += 1
+    if current_number % 2 == 0:
+           continue
+    print(current_number)
+
+
+prompt = "\nTell me the kind of pizza you want..."
+prompt += "\nEnter 'quit' to end the program. "
+message = ""
+while message != 'quit':
+       message = input(prompt)
+
+       if message != 'quit':
+           print(message)
